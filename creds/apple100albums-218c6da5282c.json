@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "apple100albums",
+  "private_key_id": "218c6da5282cc08bc98bd5934b43b9e537be9742",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDkJBhBb/qoJXn6\nmtX+kWtpTtGxJACe1s2XIa/tCgJGYWj38izU0Fr838/dVvXVlM6ezeD+5S8OynNE\nE9St4CEI/tUtvfaa+49Qh6yWbc461MnqXh8m9QPUX1DxcnKBYaQbGu3SxgnYdCH4\n1GUoKC3drIF2RgPUWxIGwV0/nePWPjlD4ytdeYUHqtVGvRhtf3VZNn59bAbPthwe\nkK+As4n3rryRe8jAtkctNxdEGdEgGJTyLwBMoV7cpyE8cVEUisx5MS1ISPNl5LO4\nFkm1XPdfEP8o4TvU7K8K7F8uc9X0l1SwqRgXnFnWqCylzZ4P0CBgkwlBODiwk0K0\nqUk22B9XAgMBAAECggEAMoustBLTPh3PgK59awFdAt/rpYuMd6SvuCRGjgYBqwY5\n83U8aYogHpaXvzpdDQ0DGjwS9WZhnq1MDHE4Va2qpAuRv6iu0neZsQXePxXk8zPh\n6IMh88elKZBUpqnspK21Ziv5NRGbbNGOFUs5fkQopUxrAoFQp+Plgomk10tsBzMm\n8xMrfpOaTcqhpEICx/Ap+hKZuRNy54OD/4fuWallZUDBT1q7+/oURmY9N7GZ+lbF\n+mlqv6lVTu/Ue+TSx5azOB273RQziEa4ZsslsuLnF9jCTYRnrWw2o80U9YTTQHIF\na3eBJ4W6z+3TpIOp1q8BC+YIfHufjdU1jNVvqj4agQKBgQD1gw7tna62lWmSD45Q\nU2cnDdX1anf/xs7Jj/K+aoMC6LWbCGgFKaPSHpIiNbR1PNyPcCMuzkvml4MgRkDn\na29rU+hSFGRh9KiS1dE8VFuFGsnBXkedHYJbE/Q5HRO7wrPRA8j/n2ZSYDl8TbLO\n+4dpS4mTX7QiNd1iZ3S+eUauaQKBgQDt4xDqpE3Sy088dwM3EkkTA+07ty594pEU\nuZEk0qHyIwjQAipFzJAgI3mXlCEQE3WQItmn3ZwL8PxzSPXm1RZksVPJqc6N1lNj\npJHX9PQDEsYBK/H2+sRioiJzCJlaj3NrdaOlZHvyfOjFvfPotVg8LeCe4ZWlwdrp\nbwD7BPonvwKBgQDhlwJRjjEqrhGqV0biQjCnbwwpjCIlUU1TYkSfeQlW0/ODN+80\nxzUzbknCy2w8yaa02kpJyN9vS8r+De+3dT2U9i2jtf8jDwcSnQu8jprlrF60omfV\nU3cjLyuai0BFp7tIlFzNnW8MxEQuFsr1a6PaOcF5PFgtkycQM5XPK2qp+QKBgQCm\nDn9ci90XbHyfRKSl6MnB0Ffl+3UkwudrhC3henc5w2L/cMN5fdaN2LWkLe72fd7v\nAqTVHUk0vMA86Y1d2RmMqIxIlZRuRlJnmBWGnqNHEe/OGZMKSPqVr4BEtJf4M3Lq\nbHAToBU1rCQBBRwiMZSqTYwi3G3OC4h4stgIYe0NmQKBgQDKcucr8Jt7nH/mkN1b\nhVLduenV5LloWD8NkUCEVQwTDG0GPerxsHvk/gkp0qR/9H7+F1gbrutJ7+itxKTd\nfMAV9UnXfQQOOb/f9/GHDAdRzSMLnKueqO4ut90WKdiS2ryXiMNC7ausgRN9qG1L\nd3W3AiUKXm9OmrMrjDnoiXnbsA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "apple-100-albums@apple100albums.iam.gserviceaccount.com",
+  "client_id": "100685108164032418656",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/apple-100-albums%40apple100albums.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

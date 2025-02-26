@@ -1,0 +1,24 @@
+{
+  "name": "tinyserver",
+  "version": "1.0.0",
+  "description": "tiny express server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilaunchpad/tinyServer.git"
+  },
+  "author": "Samir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilaunchpad/tinyServer/issues"
+  },
+  "homepage": "https://github.com/ilaunchpad/tinyServer#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "username": "samir",
+      "email": "sameer.raut@gmail.com",
+      "location": "samir_1",
+      "artifact": "samir_review",
+      "artifact_id": "1XTEmZZueL5iFphqLvFfaTqSc21gJbr8M2A0ODHmcK7c"
+    },
+    {
+      "id": 2,
+      "username": "bryan",
+      "email": "",
+      "location": "bryan_2",
+      "artifact": "bryan_review",
+      "artifact_id": "1mZomvo3ItEUhEsqzoOICAHzGrZ0B7vRXXR8b-KolSA4"
+    }
+  ],
+  "user_lookup": {
+    "samir": 0,
+    "bryan": 1
+  }
+}
