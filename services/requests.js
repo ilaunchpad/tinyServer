@@ -16,8 +16,17 @@ function findProjectRoot(startDir) {
 }
 const projectRoot = findProjectRoot(process.cwd())
 const userDataPath = path.join(projectRoot, 'data/user_data.json')
-const credentialPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+const encodedKey = process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON;
+const keyFilePath = '/tmp/service-account.json'; // Temporary safe location
 
+if (encodedKey) {
+  const decodedKey = Buffer.from(encodedKey, 'base64').toString('utf8');
+  writeFileSync(keyFilePath, decodedKey);
+  process.env.GOOGLE_APPLICATION_CREDENTIALS = keyFilePath;
+}
+
+
+const credentialPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
 const user_data = JSON.parse(readFileSync(userDataPath, 'utf-8'))
 
