@@ -16,7 +16,8 @@ function findProjectRoot(startDir) {
 }
 const projectRoot = findProjectRoot(process.cwd())
 const userDataPath = path.join(projectRoot, 'data/user_data.json')
-const credentialPath = path.join(projectRoot, 'creds/apple100albums-218c6da5282c.json')
+const credentialPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+
 
 const user_data = JSON.parse(readFileSync(userDataPath, 'utf-8'))
 
