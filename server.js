@@ -1,10 +1,9 @@
 import express from 'express'
-
 const port = process.env.PORT || 3000;
 import { router } from './routes/api.js';
 import cors from 'cors';
-import { asyncHandler } from './middleware/asyncHandler.js';
-import { errorHandler } from './middleware/errorHandler.js';
+import { asyncHandler } from './utils/asyncHandler.js';
+import { errorHandler } from './utils/errorHandler.js';
 
 const app = express(
 )

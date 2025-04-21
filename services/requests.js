@@ -2,7 +2,7 @@ import axios from 'axios'
 import { google } from 'googleapis'
 import { readFileSync, existsSync, writeFileSync } from 'fs'
 import path from 'path'
-import { asyncHAndler } from './utils/asyncHandler.js';
+import { asyncHandler } from '../utils/asyncHandler.js';
 
 function findProjectRoot(startDir) {
   let currentDir = startDir

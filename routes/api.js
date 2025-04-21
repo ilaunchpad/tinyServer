@@ -11,8 +11,11 @@ router.get('/hello', (req, res) => {
     res.json({ message: 'Hello from API route!' });
 });
 
-router.get('/getFileId', asyncHandler(req, res) =>{
+router.get('/getFileId', (req, res) =>{
 	const response = getUserArtifactId('samir')
+	if (!response){
+		throw new Error(`No file found for username :${username}`)
+	}
 	res.json({message: `FileId ${response}` })
 })
 
