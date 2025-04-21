@@ -19,6 +19,7 @@ router.get('/getFileId', asyncHandler(req, res) =>{
 
 router.get('/getFileAsWeb', asyncHandler(async (req, res) => {
 	  const username = req.param.username
+	  console.log("this is username param")
 	  console.log('username', username)
 	  //should validate username here for cases like invalid username
 	  if (!username){
@@ -29,7 +30,7 @@ router.get('/getFileAsWeb', asyncHandler(async (req, res) => {
 	      if (!artifact){
 					throw new Error('No file available for user: ${username}')
 				}
-			  console.log('response ' , response)
+			  //console.log('response ' , response)
 			  res.json({ file: response });
 }));
 
