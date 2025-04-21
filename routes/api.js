@@ -4,7 +4,6 @@ import { asyncHandler } from '../utils/asyncHandler.js'
 
 const router = express.Router();
 
-console.log('response', response)
 
 // Example GET route
 router.get('/hello', (req, res) => {
