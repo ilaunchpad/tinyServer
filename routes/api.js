@@ -19,6 +19,7 @@ router.get('/getFileId', asyncHandler(req, res) =>{
 
 router.get('/getFileAsWeb', asyncHandler(async (req, res) => {
 	  const username = req.param.username
+	  console.log('username', username)
 	  //should validate username here for cases like invalid username
 	  if (!username){
 			throw new Error('Username query paramter is required')
