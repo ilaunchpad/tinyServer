@@ -106,7 +106,7 @@ export const getUserArtifactId = (username) => {
     return null
   }
 }
-o 
+ 
 export const getArtifactFromDriveAsWebLink = async (username) => {
   const fileId = getUserArtifactId(username)
   if (!fileId) {
